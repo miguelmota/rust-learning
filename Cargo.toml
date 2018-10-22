@@ -5,3 +5,7 @@ authors = ["Miguel Mota <miguelmota2@gmail.com>"]
 
 [dependencies]
 rand = "0.5"
+
+[[bin]]
+name = "main"
+path = "chapter-5/main.rs"

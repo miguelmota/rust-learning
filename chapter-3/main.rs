@@ -1,8 +1,6 @@
 fn main() {
     let x = 5;
     println!("The value of x is: {}", x);
-    x = 6;
-    println!("The value of x is: {}", x);
 
     let x = x * 2;
 
@@ -107,9 +105,11 @@ fn main() {
 
     println!("The value of number is: {}", number);
 
+    /*
     loop {
         println!("again!");
     }
+    */
 
     let mut counter = 0;
 
@@ -162,7 +162,7 @@ fn another_function2(x: i32) {
     println!("The value of x is: {}", x);
 }
 
-fn another_function(x: i32, y: i32) {
+fn another_function3(x: i32, y: i32) {
     println!("The value of x is: {}", x);
     println!("The value of y is: {}", y);
 }
